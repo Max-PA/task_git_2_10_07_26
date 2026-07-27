@@ -54,8 +54,23 @@ person_6 = people_records[6]
 person_10 = people_records[10]
 person_13 = people_records[13]
 
-age_6 = person_6[2]
-age_10 = person_10[2]
-age_13 = person_13[2]
+print(person_6)
+# age_6 = person_6[2]
+# age_10 = person_10[2]
+# age_13 = person_13[2]
 
-print(f'Чи вік людей у списку на позиціях з індексами 6, 10, 13 >=30: {age_6 >=30 and age_10 >=30 and age_13 >= 30}')
+# age_6 = person_6[6][2]
+# age_10 = person_10[10][2]
+# age_13 = person_13[13][2]
+#
+#
+age_6 = people_records[6][2]
+age_10 = people_records[10][2]
+age_13 = people_records[13][2]
+
+print(age_6)
+print(age_10)
+print(age_13)
+
+
+# print(f'Чи вік людей у списку на позиціях з індексами 6, 10, 13 >=30: {age_6 >=30 and age_10 >=30 and age_13 >= 30}')
